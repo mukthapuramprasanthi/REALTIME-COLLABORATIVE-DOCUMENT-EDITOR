@@ -1,0 +1,31 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #a0ffa6; /* Soft background */
+  color: #1e293b; /* Dark text */
+  text-align: center;
+  padding: 40px;
+}
+
+h2 {
+  color: #1d4ed8;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 90%;
+  height: 400px;
+  font-size: 16px;
+  padding: 15px;
+  border: 2px solid #3b82f6; /* Blue border */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2); /* Blue shadow */
+  outline: none;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+  color: #0f172a;
+}
+
+textarea:focus {
+  border-color: #2563eb; /* Focus border */
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.3); /* Glow on focus */
+}
